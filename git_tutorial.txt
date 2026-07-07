@@ -72,10 +72,10 @@ create file .gitignore
 git diff
 
 # Delete a file
-git rm "file"
+git rm <name>
 
-# Restore a deleted file
-git restore "file"
+# Restore a deleted file (if it was committed)
+git restore <name>
 
 # Rename a file
 git mv "old_name" "new_name"
@@ -89,8 +89,8 @@ git log --oneline
 # Amend the last commit
 git commit -m "new_message" --amend
 
-# Jump back to the previous commit by hashtag
-git reset <0009b20>
+# Jump back to the previous commit
+git reset <hashtag>
 
 # Modify the history book
 git rebase -i --root
@@ -114,6 +114,9 @@ git switch -c <name>
 # Delete a branch
 git branch -d <name>
 
+# Move or rename a branch
+git branch -M <name>
+
 # Bring changes from another branch
 git merge -m "message" <feature-branch>
 
@@ -126,14 +129,20 @@ git remote add origin <url>
 # Delete the previous link
 git remote remove origin
 
+# Bring a remote repository to local
+git clone <url>
+
 # Set target branch
 git branch -M <name>
 
-# git push all contents from our local repository to the cloud
+# Push all contents from our local repository to the cloud
 git push -u origin <name>
 
 # After the first push we can use shortcut
 git push
+
+# Push all branches
+git push --all
 
 
 
