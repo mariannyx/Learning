@@ -40,7 +40,7 @@ print("Clear string: " + school)
 print(f"An index of 'code': {school.find("code")}")
 
 # Replace all character(s)
-print("Replace o with F: " + school.replace("o", "F"))
+print(f"Replace o with F: {school.replace("o", "F")}")
 
 # Check for the existence
 print(f"Is 'Robo' part of the word: {"Robo" in school}")

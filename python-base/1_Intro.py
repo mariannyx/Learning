@@ -13,6 +13,6 @@ print("\tHi!")
 # Declare a variable
 x = 1
 
-# Expression (5 + 2) - piece of code that produces a value
+# Expression - piece of code that produces a value
 # PEP - Python Enhancement Proposals
 # PEP8 - coding convention
