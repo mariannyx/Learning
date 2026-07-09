@@ -31,9 +31,9 @@ print(f"Type of x: {type(x)}")
 x = int(x) + 2
 print(f"\nx + 2 = {x}")
 
-# augmented assignment operator
+# Augmented assignment operator
 x += 5
 print(f"x += 5: {x}")
 
-# falsey values: "", 0, None
-# anything that is not falsey is considered truthy
+# Falsey values: "", 0, None
+# Anything that is not falsey is considered Truthy
