@@ -1,4 +1,4 @@
-# ===== 1. Intro =====
+print("\n===== 1. Intro =====\n")
 
 # Call a built-in fuction
 print("Hello, World!")
