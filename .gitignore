@@ -1,8 +1,5 @@
-# Python files
-*.py
-
 # VSCode files
 .vscode/
 
-# idk
+# python files
 __pycache__
