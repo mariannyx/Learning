@@ -6,7 +6,7 @@ language = "Python"
 # Number of characters
 print(language + " has " + str(len(language)) + " letters")
 
-# Acess to specific element / character
+# Acess to a specific element / character
 print("It also has letter: " + language[-1])
 
 # Slice, : - colon
@@ -21,7 +21,7 @@ last_name = "Moh"
 
 # Concatenation
 full = first_name + " " + last_name
-print("We can cocatenate: " + full)
+print("We can concatenate: " + full)
 
 # Expression, {} - curly braces
 full = f"{first_name} {last_name}"
@@ -36,14 +36,14 @@ school = " Robocode   "
 school = school.strip()
 print("Clear string: " + school)
 
-# Find index of character(s), -1 - not found
-print("An index of 'code': " + str(school.find("code")))
+# Find index of the character(s), -1 - not found
+print(f"An index of 'code': {school.find("code")}")
 
 # Replace all character(s)
 print("Replace o with F: " + school.replace("o", "F"))
 
-# Check for the existance
-print("Is 'Robo' part of the word: " + str("Robo" in school))
+# Check for the existence
+print(f"Is 'Robo' part of the word: {"Robo" in school}")
 
-# Does not contain character(s)
-print("Is 'Beer' not part of the word: " + str("Beer" not in school))
+# Does not contain the character(s)
+print(f"Is 'Beer' not part of the word: {"Beer" not in school}")
