@@ -6,7 +6,7 @@ print("Hello, World!")
 # () - parentheses, "" - quotes, * - asterisk
 print("* " * 5)
 
-# \ - backslash
+# \ - backslash, : - colon
 # Escape sequences: \n, \", \\ ...
 print("\tHi!")
 

@@ -9,9 +9,9 @@ print(language + " has " + str(len(language)) + " letters")
 # Acess to a specific element / character
 print("It also has letter: " + language[-1])
 
-# Slice, : - colon
+# Slice text
 # Default value is 0
-print("And we can cut it into: " + language[:2])
+print("And this is part of it: " + language[:2])
 
 
 print("\n===== 2. Formatted String =====\n")
