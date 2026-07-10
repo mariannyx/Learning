@@ -28,7 +28,7 @@ dogs = ["Daisy", "Cherry", "Baron"]
 print(f"\nDogs: {dogs}")
 print(f"It's {rnd.choice(dogs)}'s nameday")
 
-# Package is a container for multiple modules
+# Package it's a container for multiple modules
 # To covert directory into package we should add file __init__.py
 
 # PyPI(Python Package Index) has many packages for different tasks
@@ -73,7 +73,7 @@ class Dice:
         result = rnd.randint(1, 6)
         self.history.append(result)
 
-        # Finally we need to return the result
+        # Finally, we need to return the result
         return result
 
         # Pythom will automatically interpret this as a tuple
