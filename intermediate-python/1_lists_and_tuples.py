@@ -22,7 +22,7 @@ sorted_list = sorted(my_list)
 print(f"\nSorted: {sorted_list}")
 
 # Trick to reverse a list
-# By the wat, slice makes an independent copy
+# By the way, slice makes an independent copy
 reversed_list = sorted_list[::-1]
 print(f"Reversed: {reversed_list}")
 print(f"Sorted is ok: {sorted_list}")
