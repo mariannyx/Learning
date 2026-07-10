@@ -15,7 +15,7 @@ def min(numbers: list):
 
 
 def avg(numbers: list):
-    if len(numbers) > 0:
+    if numbers:
         total = 0
         for num in numbers:
             total += num
