@@ -17,6 +17,10 @@ print(f"After removing one more key: {student}")
 student.popitem()
 print(f"After deleting the last inserted item: {student}")
 
+# Remove all item
+# student.clear()
+# print(student)
+
 # Another way to create a dictionary
 # Also we can use numbers and tuples as a key
 # Actually, any immutable type is suitable
