@@ -48,3 +48,21 @@ print(f"Is 'Robo' part of the word: {"Robo" in school}")
 
 # Does not contain the character(s)
 print(f"Is 'Beer' not part of the word: {"Beer" not in school}")
+
+
+print("\n===== 4. Conversion =====\n")
+
+text = "I am a teacher"
+print(f"Example: {text}")
+
+# Convert a string to a list
+my_list = text.split(" ")
+print(f"List: {my_list}")
+
+# Convert a list to a string
+my_string = " ".join(my_list)
+print(f"String: {my_string}")
+
+# Convert a word to a list of letters
+letters = list(text)
+print(f"Letters: {letters}")
